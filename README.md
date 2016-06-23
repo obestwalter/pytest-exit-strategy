@@ -5,4 +5,4 @@ build:
     pip install landslide
     landslide landslide.cfg
 
-**[online](https://rawgit.com/obestwalter/python-exit-strategy/master/)**
+**[online](https://rawgit.com/obestwalter/pytest-exit-strategy/master/)**

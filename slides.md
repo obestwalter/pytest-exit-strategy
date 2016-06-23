@@ -61,7 +61,7 @@ users relax: pytest 3.0 != python 3.0
 
 ---
 
-# Related issues
+# Related issues I
 
 *  re-enable all warnings by default [#1191](https://github.com/pytest-dev/pytest/issues/1191)
 *  pytest should integrate with warnings module [#253](https://github.com/pytest-dev/pytest/issues/253) 
@@ -69,9 +69,13 @@ users relax: pytest 3.0 != python 3.0
 *  xdist does not report warnings [#602](https://github.com/pytest-dev/pytest/issues/602)
 *  Inconsistent behaviour of recwarn [#840](https://github.com/pytest-dev/pytest/issues/840)
 *  Option to treat warnings as errors [#1173](https://github.com/pytest-dev/pytest/issues/1173)
+
+---
+
+# Related issues II
+
 *  py.test ignores warnings.simplefilter [#1043](https://github.com/pytest-dev/pytest/issues/1043)
 *  Test run summary bar is yellow but not clear why, after updating to v2.8.2 [#1179](https://github.com/pytest-dev/pytest/issues/1179)
 *  Warnings do not become errors with `--strict` [#1381](https://github.com/pytest-dev/pytest/issues/1381)
 *  Indicate non-pytest warnings in the UI [#1262](https://github.com/pytest-dev/pytest/issues/1262)
 *  PendingDeprecationWarning triggered when run with -Werror [#1403](https://github.com/pytest-dev/pytest/issues/1403)
-*  

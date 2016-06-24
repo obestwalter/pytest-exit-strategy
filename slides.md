@@ -2,13 +2,25 @@
 
 ![exit strategy](img/exit-strategy.jpg)
 
----
-
-# Motivation
+# Why?
 
 * Functionality that has better alternatives still kept around without clear exit strategy
 * 3.0 is a good point in time to introduce a deprecation policy
 * Been mainly at the receiving end of deprecation and been bitten (requests, flask)
+
+---
+
+# Motivation: get rid of old busted stuff
+
+![old vs new](img/old-busted-new-hotness.jpg)
+
+---
+
+# Motivation: without pissing people off
+
+![old vs new](img/we-dont-want-angry-mob.jpg)
+
+---
 
 # presenter notes
 
@@ -56,11 +68,60 @@ users relax: pytest 3.0 != python 3.0
 * Keep deprecations for at least two minor releases (silent -> loud -> BOOM!)
 * Remove deprecated features only in major releases (=> first chance in 4.0)
 
+---
+
+# What is deprecated already? I
+
+* Config.option
+* Config.getplugin
+* Config.getvalue
+* Config.getvalueorskip
+* PluginManager: pm.addhooks
+
+---
+
+# What is deprecated already? II
+
+* pytest_cmdline_preparse
+* yield_fixture (oldest deprecation? Since 1.10) 
+* funcargnames
+* cached_setup
+* pytest_itemstart
+
+---
+
+# What is deprecated already? III
+
+* compatproperty.fget
+* tmpdir.ensuretemp
+* genscript.py
+* addcall
+* Node.X access
+
+---
+
+# What is deprecated already? IV
+
+* for tests: deprecated_call
+* outerr usage in repr_failure
+* command line option --report (use -r)
+* command line option --no-assert (--assert=plain)
+* command line option --nomagic (--assert=plain)
+
+---
+
+# Last but not least ...
+
+**`__multicall__`**
+
+* deprecated for quite a while
+* Could lead to a 30% performance increase
+
 # presenter notes
 
-# Todo
+todo:
 
-- collect concrete functionality that should be deprecated
+- determine timings
 - See how it's done atm (consistent? Concrete timings?)
 - explore tooling (python-deprecate, pytest-warnings, ...)
 

@@ -8,20 +8,6 @@
 * 3.0 is a good point in time to introduce a deprecation policy
 * Been mainly at the receiving end of deprecation and been bitten (requests, flask)
 
----
-
-# Motivation: get rid of old busted stuff ...
-
-![old vs new](img/old-busted-new-hotness.jpg)
-
----
-
-# ... without pissing people off
-
-![old vs new](img/we-dont-want-angry-mob.jpg)
-
----
-
 # presenter notes
 
 Usual reason for deprecation is not removing functionality, but to replace OldBusted eay of doing things with NewHotness way of things - so you should actially not despair if you see a deprecation warning but rather cherish the new and much easier way to accomplish your tasks.
@@ -34,28 +20,17 @@ I would be interested to 'sell' the new policy to users (especially that we're a
 
 users relax: pytest 3.0 != python 3.0
 
--------------------------------------
+---
 
-# Main aim
+# Get rid of old busted stuff ...
 
-![exit strategy](img/dont-want-to-confuse-users.jpg)
+![old vs new](img/old-busted-new-hotness.jpg)
 
 ---
 
-# When?
+# Without pissing people off (too much)
 
-* Publish the policy as part of the 3.0 release
-* First removals in 4.0
-
----
-
-# Looked at ...
-
-* python itself
-* plone/zope
-* django
-* SemVer
-* checked pytest issues to do with warnings and deprecation
+![old vs new](img/we-dont-want-angry-mob.jpg)
 
 ---
 
@@ -67,6 +42,24 @@ users relax: pytest 3.0 != python 3.0
 * Deprecation warnings clearly document the upgrade path right in the warning
 * Keep deprecations for at least two minor releases (silent -> loud -> BOOM!)
 * Remove deprecated features only in major releases (=> first chance in 4.0)
+
+---
+
+# When?
+
+* Tell people about it as part of the 3.0 release
+* First step: Report warnings as default as part of 3.0 release
+* First removals of deprecated functionality in 4.0
+
+---
+
+# Looked at ...
+
+* python itself
+* plone/zope
+* django
+* SemVer
+* checked pytest issues to do with warnings and deprecation
 
 ---
 

@@ -61,6 +61,7 @@ users relax: pytest 3.0 != python 3.0
 # Todo
 
 - collect concrete functionality that should be deprecated
+- See how it's done atm (consistent? Concrete timings?)
 - explore tooling (python-deprecate, pytest-warnings, ...)
 
 ---

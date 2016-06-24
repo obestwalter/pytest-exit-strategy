@@ -10,13 +10,13 @@
 
 ---
 
-# Motivation: get rid of old busted stuff
+# Motivation: get rid of old busted stuff ...
 
 ![old vs new](img/old-busted-new-hotness.jpg)
 
 ---
 
-# Motivation: without pissing people off
+# ... without pissing people off
 
 ![old vs new](img/we-dont-want-angry-mob.jpg)
 
